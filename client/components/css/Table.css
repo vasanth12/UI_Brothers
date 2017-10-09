@@ -1,0 +1,16 @@
+div.react-bs-container-body{
+  margin-top:-22px;
+}
+div.table>tbody>tr>td:first-child{
+  padding:0px 10px;
+}
+.table>colgroup+thead>tr:first-child>th{
+  padding:8px 10px;
+}
+.tablebutton{
+  background-color:transparent;
+  border-color: transparent;
+  display: block;
+  outline:0px;
+
+}

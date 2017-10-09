@@ -1,0 +1,52 @@
+*{
+	box-sizing:border-box;
+}
+*{
+	margin:0;
+	padding:0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after{
+	content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+.center-page{
+	margin:0 auto;
+	max-width:978px;
+}
+.header-wrap{
+	position:relative;
+	background-size: 100% 100%;
+}
+.logoimg{
+	height:50px;
+	width:50px;
+	float:left;
+	margin-top: -13px;
+}
+.logotext{
+	float:left;
+}
+nav.navbar {
+    border-radius: 0px;
+}
+div nav.navbar-inverse {
+    background: #1f2b3c;
+    border-color: #1f2b3c;
+    padding:5px 0px;
+}
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+.header-wrap nav ul li > a:first-child{
+    color: #fff;
+    background-color: transparent;
+}

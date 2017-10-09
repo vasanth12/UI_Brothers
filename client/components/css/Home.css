@@ -1,0 +1,45 @@
+
+*{
+	box-sizing:border-box;
+}
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+.clearfix:after{
+	content:"";
+	clear:both;
+	display: block;
+	height:0;
+	vertical-align:middle;
+	visibility:hidden;
+}
+.center-page{
+	margin:0 auto;
+	max-width:1200px;
+}
+.center{
+	margin:0 auto;
+	display:table;
+}
+.header-wrap,.content-wrap{
+	position: relative;
+	background-size:100% 100%;
+	overflow:hidden;
+}
+.left-wrap,.center-wrap,.right-wrap{
+	position: relative;
+	width:33%;
+	float:left;
+}
+.left-wrap,.center-wrap{
+	border-right:1px solid #000;
+	height:100vh;
+}
+.footer-wrap{
+	margin:18px 0px 0px 0px;
+}

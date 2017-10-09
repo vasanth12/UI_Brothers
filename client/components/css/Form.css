@@ -1,0 +1,57 @@
+.parent{
+  position:relative;
+  background-size: 100% 100%;
+}
+.centertxt{
+  text-align: center;
+}
+.search-wrap,.Chipplus-wrap{
+  position:relative;
+  background-size:100% 100%;
+  overflow:hidden;
+  margin:5px;
+}
+.fosearch{
+  float:left;
+  display:inline;
+  padding:10px;
+  border:1px solid #777;
+  width:90%;
+}
+.fosrhbutton{
+  float:left;
+  display:inline;
+  padding:9px;
+}
+.chipplus{
+  display: inline-block;
+  padding: 0 20px;
+  height: 35px;
+  font-size: 12px;
+  line-height: 35px;
+  border-radius: 25px;
+  background-color: #2966a5;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 20px;
+}
+.chipminus{
+  display: inline-block;
+  padding: 0 20px;
+  height: 35px;
+  font-size: 12px;
+  line-height: 35px;
+  border-radius: 25px;
+  background-color: #1B8F69;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 20px;
+}
+.data{
+  padding:0px 10px;
+}
+.mrr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 1px solid #eee;
+}

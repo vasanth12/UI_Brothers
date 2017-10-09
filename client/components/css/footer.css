@@ -1,0 +1,35 @@
+*{
+	box-sizing:border-box;
+}
+*{
+	margin:0;
+	padding:0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after{
+	content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.center-page{
+	margin:0 auto;
+	max-width:978px;
+}
+.footer-wrap{
+  position:relative;
+  background-size:100% 100%;
+	background-color:#1f2b3c;
+}
+.fotter-main > span{
+	color:#ffffff;
+	margin:0 auto;
+	display:table;
+	padding:10px 0px;
+}

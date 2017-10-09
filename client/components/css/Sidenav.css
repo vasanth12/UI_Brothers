@@ -1,0 +1,43 @@
+.side-nav.default-theme{
+    height:480px;
+    overflow-y: scroll;
+}
+.side-nav.default-theme .side-nav-item-title {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #a7b1c2;
+    text-decoration: none;
+}
+.side-nav.default-theme .side-nav-chevron {
+    font-size: 15px;
+    display: inline-block;
+    position: absolute;
+    right: 1.25rem;
+    top: 1.125rem;
+}
+div.side-nav.default-theme:hover div.side-nav-chevron :hover{
+	border-left:10px solid red;
+}
+.side-nav.default-theme .side-nav-item.level-1 .side-nav-item-link, .side-nav.default-theme .side-nav-item.level-1 .side-nav-item-title {
+    padding: .4375rem .625rem .4375rem 3.125rem;
+    font-size: 13px;
+}
+.side-nav.default-theme .side-nav-item.expanded.level-0>.side-nav-item-title{
+	border-bottom:1px solid #ffffff;
+}
+.side-nav.default-theme::-webkit-scrollbar {
+    width: 20px;
+    height: 20px;
+}
+.side-nav.default-theme::-webkit-scrollbar-button {
+    background: #ccc
+}
+
+.side-nav.default-theme::-webkit-scrollbar-track-piece {
+    background: #888
+}
+
+.side-nav.default-theme::-webkit-scrollbar-thumb {
+    background: #eee
+}
